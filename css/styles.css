@@ -544,6 +544,216 @@ h1, h2, h3, h4, h5, h6, p {
     right: 45%;
   }
 }
+.special {
+  max-width: 980px;
+  margin-bottom: 100px;
+}
+.special .special-title {
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  font-size: 30px;
+  margin-top: 60px;
+}
+.special hr {
+  width: 150px;
+  margin-top: -15px;
+  border: 1px solid;
+}
+.special .place {
+  margin-top: 35px;
+  display: flex;
+  justify-content: left;
+}
+.special .place .place-image img {
+  width: 199px;
+  height: 287px;
+}
+.special .place .place-description {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.special .place .place-description .place-header {
+  margin-left: 20px;
+}
+.special .place .place-description .place-header .place-title {
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  font-size: 30px;
+}
+.special .place .place-description .place-header hr {
+  margin-bottom: 10px;
+}
+.special .place .place-description .place-text {
+  max-width: 290px;
+  height: 131px;
+  margin-left: 20px;
+  margin-bottom: 80px;
+}
+.special .place .place-description .place-button {
+  width: 500px;
+  height: 40px;
+  margin-top: -25px;
+  margin-left: 20px;
+  z-index: 99;
+}
+.special .place .place-description .place-button button {
+  background-color: #79ADDC;
+  width: 121px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+}
+.special .place .place-description .place-button button:hover {
+  cursor: pointer;
+}
+
+.contact {
+  max-width: 980px;
+  margin-bottom: 100px;
+}
+.contact .contact-header {
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  font-size: 30px;
+  margin-top: 60px;
+}
+.contact hr {
+  width: 100px;
+  margin-top: -15px;
+  border: 1px solid;
+  margin-bottom: -50px;
+}
+.contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .container .map {
+  height: 442px;
+  width: 400px;
+  background-color: blue;
+  background-image: url("../images/map.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact .container .form {
+  height: 523px;
+  width: 529px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 80px;
+}
+.contact .container .form input {
+  margin-bottom: 21px;
+  width: 529px;
+  height: 60px;
+  padding-left: 11px;
+  background-color: #e6e3e3;
+  border: none;
+}
+.contact .container .form .message {
+  height: 200px;
+  margin-bottom: 0;
+}
+.contact .container .form button {
+  display: block;
+  margin-top: 20px;
+  background-color: #79ADDC;
+  width: 167px;
+  height: 60px;
+  text-align: center;
+  border: none;
+  color: #fff;
+}
+.contact .container .form button:hover {
+  cursor: pointer;
+}
+.contact .address {
+  height: 161px;
+  width: 400px;
+}
+.contact .address p {
+  font-size: 18px;
+  line-height: 5px;
+}
+
+.blog {
+  max-width: 980px;
+  margin-bottom: 100px;
+}
+.blog .blog-header {
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  font-size: 30px;
+  margin-top: 60px;
+}
+.blog hr {
+  width: 60px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  border: 1px solid;
+}
+.blog .collection {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.blog .collection .date-released {
+  height: 60px;
+  width: 60px;
+  background-color: #79ADDC;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog .collection .date-released .one {
+  font-size: 22px;
+  font-weight: bold;
+  z-index: 98;
+  margin-bottom: -1px;
+  margin-top: 10px;
+}
+.blog .collection .date-released .two {
+  font-size: 12px;
+}
+.blog .collection .blog-info {
+  width: 900px;
+  height: 375px;
+}
+.blog .collection .blog-info .blog-image {
+  height: 259px;
+  width: 900px;
+  margin-bottom: 20px;
+  background-color: blue;
+  background-image: url("../images/blog.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog .collection .blog-info .blog-title {
+  height: 22px;
+  min-width: 200px;
+  margin-bottom: 10px;
+}
+.blog .collection .blog-info .blog-title p {
+  font-size: 15px;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  color: #000;
+}
+.blog .collection .blog-info .blog-description {
+  height: 64px;
+  width: 380px;
+}
+.blog .collection .blog-info .blog-description p {
+  font-size: 13px;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  color: #79ADDC;
+}
+
 .tours-banner {
   max-width: 980px;
   height: 200px;

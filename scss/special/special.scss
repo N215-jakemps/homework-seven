@@ -1,0 +1,104 @@
+.special{
+
+    max-width: $content-width;
+    
+
+    margin-bottom: 100px;
+
+    .special-title{
+        font-family: $main-font;
+        font-size: 30px;
+
+        margin-top: 60px;
+    }
+    hr {
+        width: 150px;
+        margin-top: -15px;
+
+        border: 1px solid;
+    }
+    
+    .place{
+
+        margin-top: 35px;
+
+        display: flex;
+        justify-content: left;
+        //align-items: left;
+
+        .place-image{
+          img{
+            width: 199px;
+            height: 287px;
+          }
+        }
+
+        .place-description{
+
+            display: flex;
+            align-items: left;
+            justify-content: space-between;
+            flex-direction: column;
+            .place-header{
+                    // margin-bottom: 80px;
+                    // margin-left: 10px;
+                    margin-left: 20px;
+                .place-title{
+                    font-family: $main-font;
+                    font-size: 30px;
+    
+                    
+                    
+                }
+                hr{
+                    // margin-bottom: 90px;
+                    // margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            .place-text{
+                max-width: 290px;
+                height: 131px;
+
+                margin-left: 20px;
+                margin-bottom: 80px;
+            }
+
+            .place-button{
+                width: 500px;
+                height: 40px;
+
+                margin-top: -25px;
+
+                margin-left: 20px;
+
+                z-index: 99;
+
+                button{
+                    //position: absolute;
+                //display: block;
+                //margin: $center;
+            
+                
+            
+                background-color: $site-blue;
+            
+                // top: 367px;
+                // left: 574.7px;
+            
+                width: 121px;
+                height: 40px;
+            
+                text-align: center;
+                border: none;
+                color: $site-white;
+                border-radius: $button-radius;
+            
+                &:hover{
+                    cursor: pointer;
+                }
+               }
+            }
+        }
+    }
+}

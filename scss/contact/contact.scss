@@ -1,0 +1,108 @@
+.contact{
+
+    max-width: $content-width;
+    
+
+    margin-bottom: 100px;
+
+    .contact-header{
+        font-family: $main-font;
+        font-size: 30px;
+
+        margin-top: 60px;
+    }
+    hr {
+        width: 100px;
+        margin-top: -15px;
+
+        border: 1px solid;
+
+        margin-bottom: -50px;
+    }
+
+
+    .container{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+       // margin-top: 10px;
+        .map{
+            height: 442px;
+            width: 400px;
+
+            background-color: blue;
+
+            background-image: url('../images/map.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .form{
+            height: 523px;
+            width: 529px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            // justify-content: space-between;
+
+            margin-top: 80px;
+
+            input{
+                margin-bottom: 21px;
+
+                width: 529px;
+                height: 60px;
+    
+                padding-left: 11px;
+
+                background-color: #e6e3e3;
+    
+                // border-color: $site-blue;
+                border: none;
+            }
+
+            .message{
+                height: 200px;
+                margin-bottom: 0;
+            }
+
+            button{
+                 //position: absolute;
+                display: block;
+                //margin: $center;
+
+                margin-top: 20px;
+
+                background-color: $site-blue;
+
+                width: 167px;
+                height: 60px;
+
+                text-align: center;
+                border: none;
+                color: $site-white;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+        .address{
+            height: 161px;
+            width: 400px;
+
+            p{
+                font-size: 18px;
+                line-height: 5px;
+            }
+        }
+   
+
+
+}

@@ -1,7 +1,7 @@
 {
   "name": "homework-four",
   "version": "1.0.0",
-  "description": "",
+  "description": "<br/> <br/>",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -16,5 +16,13 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.49.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N215-jakemps/homework-six.git"
+  },
+  "bugs": {
+    "url": "https://github.com/N215-jakemps/homework-six/issues"
+  },
+  "homepage": "https://github.com/N215-jakemps/homework-six#readme"
 }
