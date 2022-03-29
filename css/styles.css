@@ -632,7 +632,6 @@ h1, h2, h3, h4, h5, h6, p {
 .contact .container .map {
   height: 442px;
   width: 400px;
-  background-color: blue;
   background-image: url("../images/map.jpg");
   background-position: center;
   background-size: cover;
@@ -728,7 +727,6 @@ h1, h2, h3, h4, h5, h6, p {
   height: 259px;
   width: 900px;
   margin-bottom: 20px;
-  background-color: blue;
   background-image: url("../images/blog.jpg");
   background-position: center;
   background-size: cover;
